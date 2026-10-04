@@ -36,7 +36,9 @@ void unregister_client(Client *client) {
     // TODO: we should remove the client also from any persistent storage 
 }
 
-// Find the client by client_id
-void find_client(Client *client) {
-    
+// Find the client by client_id 
+// TODO: implement this
+Client *find_client (const char *id) {
+   //implement the logic to find the object in memory. Actually this should be an optimized search algorithm
+   return NULL;       
 }

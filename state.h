@@ -21,7 +21,7 @@ Client *register_client(const char *id, int timeout);
 void heartbeat(Client *client); 
 void check_timeout(Client *client); 
 void unregister_client(Client *client); 
-void find_client(Client *client); 
+Client *find_client(const char *id);  
 
 
 
